@@ -16,6 +16,7 @@ def floodFill(sourceDf):
             regionNumber=regionNumber+1
     print(sourceDf)
     print(outputDf)
+    return outputDf
 
 def regionBuilder(sourceDf, outputDf, col, row, regionNumber):
         value=sourceDf[col, row]
