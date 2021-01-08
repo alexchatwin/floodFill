@@ -14,8 +14,8 @@ def floodFill(sourceDf, _groupNonZeros=False):
                 (lulCol, lulRow)= lookuplist.pop()
                 regionBuilder(sourceDf, outputDf, lulCol, lulRow, regionNumber, _groupNonZeros)
             regionNumber=regionNumber+1
-    print(sourceDf)
-    print(outputDf)
+    #print(sourceDf)
+    #print(outputDf)
     return outputDf
 
 def regionBuilder(sourceDf, outputDf, col, row, regionNumber, _groupNonZeros):
